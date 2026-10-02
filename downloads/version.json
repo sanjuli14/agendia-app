@@ -1,0 +1,546 @@
+{
+  "version": "1.7.1",
+  "build": 19,
+  "minBuild": 0,
+  "buildNumber": 2019,
+  "minBuildNumber": 0,
+  "commit": "325ba59bbd4c0355a9ddf0a10dd36f92424f88ff",
+  "builtAt": "2026-10-02T20:32:01Z",
+  "apps": {
+    "client": {
+      "file": "agendia.apk",
+      "sha256": "8f70c8011371d9f8ce36af4723bd13d285d113b87f1082d9077a16e2555d2e51",
+      "sizeBytes": 29208340,
+      "file32": "agendia-32bits.apk",
+      "sha256_32": "839a0186c99cc1ec986180170e297fa6d03315ab5d6c630d693a78490871f68a",
+      "sizeBytes32": 25432780
+    },
+    "manager": {
+      "file": "agendia-negocios.apk",
+      "sha256": "692567a14daa365d31010f46517370f9f1f74acdabf62578af9a96e9e376cb91",
+      "sizeBytes": 24850130,
+      "file32": "agendia-negocios-32bits.apk",
+      "sha256_32": "c0db19aca8c4875e621762715fb3c29c587096e6f1a3c61c4a75ef5ed324f08d",
+      "sizeBytes32": 22614664
+    }
+  },
+  "changelog": [
+    {
+      "version": "1.7.1",
+      "date": "2026-10-02",
+      "client": [
+        {
+          "kind": "improved",
+          "text": "Las fotos de los negocios cargan más rápido y gastan menos datos: se ven en miniatura y se guardan en el teléfono para no volver a bajarlas."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Las fotos que subes a la galería llevan tu logo como marca de agua (o el nombre del negocio si aún no tienes logo)."
+        },
+        {
+          "kind": "improved",
+          "text": "La galería admite hasta 15 fotos y te dice cuántas te quedan."
+        }
+      ]
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-09-28",
+      "client": [
+        {
+          "kind": "new",
+          "text": "Si el negocio va a domicilio, al reservar eliges si la cita es en el local o en tu casa, y escribes tu dirección (la próxima vez ya sale puesta)."
+        },
+        {
+          "kind": "new",
+          "text": "Antes de confirmar ves el recargo por ir a domicilio, si el negocio lo cobra."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Nueva pantalla Domicilios (en el menú y en Perfil): activa el servicio a domicilio, marca qué servicios haces en casa del cliente, pon un recargo y el tiempo para llegar y hasta la siguiente cita."
+        },
+        {
+          "kind": "new",
+          "text": "Las horas que se ofrecen dejan libre el tiempo del traslado, para que no se te junten las citas."
+        },
+        {
+          "kind": "new",
+          "text": "En la agenda las citas a domicilio llevan su etiqueta y la dirección, que se abre en el mapa. En \"Nueva cita\" también puedes apuntarla a domicilio."
+        },
+        {
+          "kind": "improved",
+          "text": "Plan Equipo: el horario de cada especialista lo pones tú. Se quitan la opción de que cada uno ponga el suyo (\"renta de mesa\") y el horario del local."
+        }
+      ]
+    },
+    {
+      "version": "1.6.2",
+      "date": "2026-09-28",
+      "client": [
+        {
+          "kind": "fixed",
+          "text": "Si un negocio en el que estabas deja Agendia, tu cuenta sigue intacta: solo desaparece ese negocio de tu lista, con sus citas."
+        }
+      ],
+      "manager": []
+    },
+    {
+      "version": "1.6.1",
+      "date": "2026-09-27",
+      "client": [
+        {
+          "kind": "improved",
+          "text": "Los precios de cada negocio salen en su moneda (pesos cubanos, dólares, euros…), en vez de siempre en euros."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "En Perfil, «País y moneda»: elige en qué moneda se muestran tus precios. Se rellena sola según el prefijo de tu teléfono y puedes cambiarla cuando quieras."
+        }
+      ]
+    },
+    {
+      "version": "1.6.0",
+      "date": "2026-09-27",
+      "client": [],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "15 días de prueba gratis al registrar tu negocio, con el plan que elijas (Individual o Equipo). Durante la prueba puedes pasar a Equipo sin coste, y el inicio te dice cuántos días te quedan."
+        },
+        {
+          "kind": "new",
+          "text": "Si pagas antes de que termine la prueba, tu año empieza cuando acaba: no pierdes días. Al terminar sin pago, la app se pausa hasta que se confirme y tus datos se conservan."
+        },
+        {
+          "kind": "improved",
+          "text": "Una cita solo se puede marcar como completada o «no vino» cuando ya empezó: antes se podía marcar una cita futura por error y seguía ocupando su hora en la agenda."
+        }
+      ]
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-09-27",
+      "client": [
+        {
+          "kind": "improved",
+          "text": "Si dejas una actualización para más tarde, queda un aviso encima del menú de abajo para instalarla cuando quieras."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "improved",
+          "text": "Si dejas una actualización para más tarde, queda un aviso encima del menú de abajo para instalarla cuando quieras."
+        },
+        {
+          "kind": "improved",
+          "text": "Solo tú puedes cambiar el logo, la portada y las fotos de tu negocio, y al cambiarlas o quitarlas ya no se guardan las anteriores."
+        }
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "date": "2026-09-27",
+      "client": [
+        {
+          "kind": "new",
+          "text": "Puedes reservar varios servicios en la misma cita (por ejemplo, corte y barba): el mismo especialista te los hace uno tras otro y ves la duración y el precio totales."
+        },
+        {
+          "kind": "new",
+          "text": "Combos: los negocios pueden ofrecer paquetes de servicios. Verás qué incluye cada uno y cuánto ahorras."
+        },
+        {
+          "kind": "new",
+          "text": "Recordatorio 30 minutos antes de tu cita, además de los de 24 horas y 1 hora. Ahora incluyen la hora de la cita."
+        },
+        {
+          "kind": "improved",
+          "text": "Hay más horas para elegir al reservar: se ofrecen cada 15 minutos (o lo que decida el negocio), sin huecos perdidos entre citas."
+        },
+        {
+          "kind": "improved",
+          "text": "Los recordatorios suenan a su hora aunque el móvil esté en reposo, y se ponen al día en cuanto el negocio cambia tu cita."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Recordatorios de tus citas 24 horas, 1 hora y 30 minutos antes. Le llegan a cada especialista con cuenta por sus citas y, con el plan Individual, al dueño por todas."
+        },
+        {
+          "kind": "new",
+          "text": "Aviso al especialista cuando le apuntan una cita o una de las suyas pasa a otra persona (y al que la recibe)."
+        },
+        {
+          "kind": "new",
+          "text": "Combos: en Servicios, marca los servicios que incluye uno. La app te dice lo que cuestan por separado para que pongas el precio del combo."
+        },
+        {
+          "kind": "new",
+          "text": "Citas con varios servicios, en la reserva de tus clientes y en \"Nueva cita\": duran lo que suman, cuestan la suma (con las promociones de cada servicio) y solo las toma quien los hace todos."
+        },
+        {
+          "kind": "new",
+          "text": "En Perfil → Reservas eliges cada cuánto se ofrecen las horas (cada 15 minutos por defecto), para aprovechar los huecos entre citas."
+        },
+        {
+          "kind": "fixed",
+          "text": "Cambiar el idioma o el tema desde el menú lateral no hacía nada. Ahora funciona, también para tu equipo."
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-09-26",
+      "client": [
+        {
+          "kind": "new",
+          "text": "La app ya está en inglés. Sale en el idioma de tu móvil y puedes cambiarlo en el menú de tu cuenta → Idioma."
+        },
+        {
+          "kind": "new",
+          "text": "Los avisos y las notificaciones te llegan en el idioma que elijas."
+        },
+        {
+          "kind": "new",
+          "text": "Modo claro. Elige Automático (el de tu móvil), Claro u Oscuro en el menú de tu cuenta → Tema."
+        },
+        {
+          "kind": "new",
+          "text": "Una bienvenida animada la primera vez que abres la app, con lo que puedes hacer en ella."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "La app ya está en inglés, para ti y para tu equipo. Sale en el idioma del móvil y se cambia en el menú lateral → Idioma."
+        },
+        {
+          "kind": "new",
+          "text": "Los avisos y las notificaciones llegan a cada uno en su idioma."
+        },
+        {
+          "kind": "new",
+          "text": "Modo claro. Elige Automático (el del móvil), Claro u Oscuro en el menú lateral → Tema."
+        },
+        {
+          "kind": "new",
+          "text": "Una bienvenida animada la primera vez que abres la app, con lo que puedes hacer en ella."
+        }
+      ]
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-09-26",
+      "client": [
+        {
+          "kind": "fixed",
+          "text": "La app no avisaba de las versiones nuevas ni dejaba actualizarse desde dentro. Ahora sí."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "fixed",
+          "text": "La app no avisaba de las versiones nuevas ni dejaba actualizarse desde dentro. Ahora sí."
+        },
+        {
+          "kind": "improved",
+          "text": "Al pedir el plan Equipo, el equipo de Agendia recibe tu pedido al momento."
+        }
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-09-25",
+      "client": [
+        {
+          "kind": "new",
+          "text": "Al crear la cuenta se pide tu teléfono, con la bandera y el prefijo de tu país; el negocio lo usa para avisarte de tus citas."
+        },
+        {
+          "kind": "improved",
+          "text": "El correo se revisa al escribirlo y, si parece mal escrito, la app te sugiere la corrección (por ejemplo, gmail.com)."
+        },
+        {
+          "kind": "new",
+          "text": "¿Olvidaste tu contraseña? Escríbenos por WhatsApp desde el inicio de sesión y te ayudamos a recuperar tu cuenta."
+        },
+        {
+          "kind": "new",
+          "text": "Cambiar contraseña, desde el menú de tu cuenta."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Dos planes: Individual (50 USD al año, trabajas solo) y Equipo (100 USD al año, especialistas ilimitados y la app para cada uno). Lo eliges al registrarte y puedes pasar a Equipo cuando quieras pagando solo la diferencia por lo que te queda de año."
+        },
+        {
+          "kind": "new",
+          "text": "Cuentas para tu equipo (plan Equipo): en Equipo → Acceso a la app eliges un usuario para cada especialista y le envías sus datos; entra en la app con «Soy del equipo»."
+        },
+        {
+          "kind": "new",
+          "text": "«Esta ficha soy yo»: si también atiendes, marca tu ficha de especialista; sale como «Tú» y tus citas se apuntan contigo por defecto."
+        },
+        {
+          "kind": "new",
+          "text": "Horario del local y dos formas de trabajar por especialista: empleado con contrato (tú pones sus turnos) o renta de mesa (pone su horario, sus descansos y sus ausencias dentro del horario del local)."
+        },
+        {
+          "kind": "new",
+          "text": "Tu equipo ve en la app solo lo suyo: su agenda, sus clientes, su horario y los avisos de sus citas. No ve precios, ingresos, promociones ni las citas de los demás."
+        },
+        {
+          "kind": "fixed",
+          "text": "Más protección para los datos de tus citas y tus clientes."
+        },
+        {
+          "kind": "improved",
+          "text": "El teléfono del negocio es obligatorio al registrarse, con la bandera y el prefijo de tu país."
+        },
+        {
+          "kind": "improved",
+          "text": "El correo se revisa al escribirlo y, si parece mal escrito, la app te sugiere la corrección."
+        },
+        {
+          "kind": "new",
+          "text": "Ves el teléfono de los clientes que se registran desde ahora en sus citas y en Clientes."
+        },
+        {
+          "kind": "new",
+          "text": "¿Olvidaste tu contraseña? Escríbenos por WhatsApp desde el inicio de sesión y te ayudamos a recuperar tu cuenta."
+        },
+        {
+          "kind": "new",
+          "text": "Cambiar contraseña, desde el menú lateral."
+        },
+        {
+          "kind": "fixed",
+          "text": "Al crear tu primer servicio ya no dice que no tienes especialistas."
+        },
+        {
+          "kind": "fixed",
+          "text": "«Cerrar sesión» desde el menú lateral no hacía nada."
+        }
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-09-25",
+      "client": [
+        {
+          "kind": "new",
+          "text": "La app avisa cuando hay una versión nueva y se actualiza desde dentro, sin pasar por la web."
+        },
+        {
+          "kind": "new",
+          "text": "Pantalla \"Novedades\" con lo que trae cada versión."
+        },
+        {
+          "kind": "improved",
+          "text": "Al reservar, los días en que ya tienes el máximo de citas del negocio salen desactivados y se explica por qué."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Límite de reservas por cliente: cuántas citas puede tener un cliente el mismo día y cuántas pendientes a la vez (Perfil > Reservas). Así nadie acapara tus turnos; las citas que apuntas tú no cuentan."
+        },
+        {
+          "kind": "new",
+          "text": "La app avisa cuando hay una versión nueva y se actualiza desde dentro, sin pasar por la web."
+        },
+        {
+          "kind": "new",
+          "text": "\"Novedades\" en el menú, con lo que trae cada versión."
+        }
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-25",
+      "client": [
+        {
+          "kind": "new",
+          "text": "Pantalla de avisos con campana: te enteras cuando el negocio confirma, cambia o cancela tu cita."
+        },
+        {
+          "kind": "new",
+          "text": "Puedes decir el motivo al cancelar una cita."
+        },
+        {
+          "kind": "new",
+          "text": "Promociones: ves el descuento del día en el negocio y al reservar."
+        },
+        {
+          "kind": "improved",
+          "text": "El calendario de la reserva solo deja elegir los días con hueco libre."
+        },
+        {
+          "kind": "improved",
+          "text": "Si tu especialista falta, tu cita se mueve al hueco libre más cercano y te avisamos."
+        },
+        {
+          "kind": "new",
+          "text": "Aviso de faltas: si no vas a una cita sin cancelarla, el negocio puede dejar de aceptar tus reservas."
+        },
+        {
+          "kind": "new",
+          "text": "Términos y condiciones y política de privacidad."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Pausa de almuerzo en el horario de cada día y \"usar este horario en los demás días\"."
+        },
+        {
+          "kind": "new",
+          "text": "Ausencias de un especialista: sus citas se mueven solas al hueco más cercano, con vista previa, y se avisa a los clientes."
+        },
+        {
+          "kind": "new",
+          "text": "Promociones por días, servicios o categoría, con aviso opcional a tus clientes."
+        },
+        {
+          "kind": "new",
+          "text": "Ocupación: mapa de calor de horas pico, ingresos por hora y ofertas flash para los días flojos."
+        },
+        {
+          "kind": "new",
+          "text": "Faltas: marcar \"No vino\" avisa al cliente y, al llegar a tu límite, queda bloqueado."
+        },
+        {
+          "kind": "new",
+          "text": "Pestaña de canceladas con quién canceló, cuándo y por qué."
+        },
+        {
+          "kind": "new",
+          "text": "Términos y condiciones y política de privacidad."
+        },
+        {
+          "kind": "fixed",
+          "text": "Tildes rotas en algunos avisos."
+        }
+      ]
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-23",
+      "client": [
+        {
+          "kind": "new",
+          "text": "Versión web para usar Agendia desde el navegador (también en iPhone)."
+        },
+        {
+          "kind": "improved",
+          "text": "Al escanear el QR de un negocio se entra directamente en él."
+        },
+        {
+          "kind": "improved",
+          "text": "\"Hoy\" y \"abierto ahora\" se calculan con la hora del negocio."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Versión web de Agendia Negocios."
+        },
+        {
+          "kind": "new",
+          "text": "Cartel con tu QR para imprimir o compartir."
+        },
+        {
+          "kind": "improved",
+          "text": "Las tarjetas del equipo muestran el horario de hoy y las horas de la semana."
+        },
+        {
+          "kind": "improved",
+          "text": "Categorías de servicio libres."
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-23",
+      "client": [
+        {
+          "kind": "new",
+          "text": "Notificaciones en el móvil con sonido, también con la app cerrada, y recordatorios de tus citas."
+        },
+        {
+          "kind": "improved",
+          "text": "Mensajes de error claros y en español."
+        },
+        {
+          "kind": "improved",
+          "text": "Detalle del negocio con portada, horario y equipo."
+        },
+        {
+          "kind": "fixed",
+          "text": "Las citas quedaban guardadas unas horas antes de la hora elegida."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Notificaciones de nuevas reservas y cancelaciones, también con la app cerrada."
+        },
+        {
+          "kind": "new",
+          "text": "\"Nueva cita\" para apuntar a tus clientes."
+        },
+        {
+          "kind": "improved",
+          "text": "Cada servicio lo hace un especialista, con su propio horario."
+        },
+        {
+          "kind": "improved",
+          "text": "Perfil del negocio con portada y logo."
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-23",
+      "client": [],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Aviso en la app cuando un cliente reserva o cancela."
+        },
+        {
+          "kind": "new",
+          "text": "Horarios por especialista y bloqueos de horario."
+        },
+        {
+          "kind": "improved",
+          "text": "Barra de navegación inferior y menú lateral."
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-22",
+      "client": [
+        {
+          "kind": "new",
+          "text": "Primera versión: únete a tus negocios con su código o QR y reserva tus citas."
+        }
+      ],
+      "manager": [
+        {
+          "kind": "new",
+          "text": "Primera versión: servicios, equipo, agenda, clientes y tu código QR."
+        }
+      ]
+    }
+  ]
+}
